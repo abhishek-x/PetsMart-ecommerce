@@ -50,7 +50,7 @@ const createFooter = () => {
                     <a href="#" class="social-link">twitter</a>
                 </div>
             </div>
-            <p class="footer-credit">Made with <span class="heart">❤️<span> by @sakshi</p>
+            <p class="footer-credit">Made with <span class="heart">❤️<span> by @abhishek</p>
                     </footer>
     `;
 }
