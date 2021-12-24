@@ -22,3 +22,19 @@ $ git clone git@github.com:abhishek-x/PetsMart-ecommerce.git
 ```
 $ cd PetsMart-ecommerce
 ```
+### 3. Install All Node Modules
+
+```
+$ npm install
+```
+
+### 4. Run the Website
+
+```
+$ npm start
+```
+
+### 5. Open the Webite on your Browser
+
+- Run http://localhost:3000
+
