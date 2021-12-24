@@ -38,3 +38,16 @@ $ npm start
 
 - Run http://localhost:3000
 
+## Useful links
+- Home Page: http://localhost:3000/
+- Login: http://localhost:3000/login
+- Sign Up: http://localhost:3000/signup
+- Cart Page: http://localhost:3000/cart
+- Checkout Page: http://localhost:3000/checkout
+- Seller's Dashboard: http://localhost:3000/seller
+
+## Contact Me
+- Instagram: https://www.instagram.com/abhishek.x__/
+- Github: https://github.com/abhishek-x
+- LinkedIn: https://www.linkedin.com/in/abhishek-aggarwal-59b1751b6/
+- Drop an Email: abhishek.aggarwal836@gmail.com
