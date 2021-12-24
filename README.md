@@ -2,6 +2,8 @@
 
 Welcome to my my fully-functional fullstack e-commerce website template created on a pet-store theme.
 
+![Cover Photo](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## Technologies Used
 - HTML5 and CSS3
 - JavaScript
