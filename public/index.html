@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetsMart</title>
+
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+ 
+
+        <header class="hero-section">
+            <div class="content">
+                <p class="sub-heading">best fashion collection of all time</p>
+            </div>
+        </header>
+
+        <section id="top-products"></section>
+        <section id="dog-products"></section>
+        <section id="cat-products"></section>
+        <section id="other-products"></section>
+
+        <section class="collection-container">
+            <a href="#" class="collection">
+                <img src="imagess/peri-stojnic-5Vr_RVPfbMI-unsplash.jpg" alt="">
+                <p class="collection-title">Dogs</p>
+            </a>
+            <a href="#" class="collection">
+                <img src="imagess/edgar-nKC772R_qog-unsplash.jpg" alt="">
+                <p class="collection-title">Cats</p>
+            </a>
+            <a href="#" class="collection">
+                <img src="imagess/karsten-winegeart-YzxeHEzBZ6I-unsplash.jpg" alt="">
+                <p class="collection-title">accessories</p>
+            </a>
+        </section>
+
+        <footer></footer>
+        <script src="../js/footer.js"></script>
+        <script src="../js/nav.js"></script>
+        <script src="../js/home.js"></script>
+
+        <script>
+            getProducts('Top Products').then(data => createProductSlider(data, '#top-products', 'Top Products'));
+            getProducts('Dog Products').then(data => createProductSlider(data, '#dog-products', 'Dog Products'));
+            getProducts('Cat Products').then(data => createProductSlider(data, '#cat-products', 'Cat Products'));
+            getProducts('Other Products').then(data => createProductSlider(data, '#other-products', 'Other Products'));
+        </script>
+</body>
+</html>
